@@ -11,9 +11,68 @@ body {
 .portfolio-item {
     margin-bottom: 25px;
 }
+h1 {
+	font-size:60px;
+	margin:30px;
+}
 
 footer {
-    margin: 50px 0;
+	position: absolute;
+	right:0;
+	bottom:0;
+	left:0;
     font-size: 10pt;
     text-align: center;
+}
+
+.big-box {
+	float: right;
+	width: 255px;
+	height: 450px;
+	margin-top:30px;
+	margin-left:30px;
+	
+	
+}
+
+.box-up{
+	float: right;
+	width: 255px;
+	height: 125px;
+	border: 1px solid;
+	margin-bottom: 10px
+}
+
+.box-down {
+	float: right;
+	width: 255px;
+	height: 315px;
+	border: 1px solid;
+	padding-top: 100px;
+	padding-left: 30px;
+}
+.circle {
+	position:absolute;
+	width:170px;
+	height:170px;
+	border-radius:170px;
+	border:3px solid white;
+	margin-left:44px;
+	margin-top:50px;
+	z-index:1;
+}
+.img-circle {
+    border-radius: 50%;
+	width:164px;
+	height:164px;
+}
+.upperImg {
+	height:100%;
+	width:100%;
+}
+.name {
+	margin-bottom:15px;
+}
+.resume {
+	padding-left:68px;
 }
